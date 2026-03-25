@@ -18,28 +18,31 @@
 # deposit(amount) — adds to balance
 # withdraw(amount) — deducts if sufficient, else prints "Insufficient funds"
 # show_balance() — prints current balance
-class BankAccount:
-    def __init__(self, owner, balance):
-        self.owner = owner
-        self.balance = balance
-    def deposite(self):
-        amt = int(input("Enter deposite amount: "))
-        if amt <= 0:
-            print("Enter valid and above 0 amount")
-        else:
-            self.balance += amt
-            return
-    def withdraw(self):
-        amt = int(input("Enter withdrawal amount: "))
-        if amt <= 0:
-            print("Enter valid and above 0 amount")
-        else:
-            self.balance -= amt
-            return
-    def show_balance(self):
-        print(f"Available balance is {self.balance}")
-        return
-ba = BankAccount("irfan", 1000)
-ba.deposite()
-ba.withdraw()
-ba.show_balance()
+# class BankAccount:  # create class Banck Account
+#     def __init__(self, owner, balance):
+#         self.owner = owner      # create instance variables
+#         self.balance = balance
+        
+#     # create deposite method for adding the amount into current balance
+#     def deposite(self,amount):
+#         if amount <= 0:
+#             print("Enter valid and above 0 amount")
+#         else:
+#             self.balance += amount      # add new amount in current balance
+#             return
+    
+#     def withdraw(self, amount):
+#         if amount <= 0:
+#             print("Enter valid and above 0 amount")
+#         else:
+#             self.balance -= amount  # remove the amount from balance
+#             return
+        
+#     def show_balance(self):
+#         print(f"Available balance is {self.balance}")
+#         return
+    
+# ba = BankAccount("irfan", 1000)
+# ba.deposite(500)
+# ba.withdraw(200)
+# ba.show_balance()
