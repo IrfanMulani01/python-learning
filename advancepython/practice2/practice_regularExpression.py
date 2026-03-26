@@ -1,0 +1,1 @@
+## Q1. Write a program using re.search() to check if the word "Python" exists in a given string. Print "Found!" or "Not Found!".
