@@ -1,0 +1,129 @@
+# 🐍 Python Learning
+
+A structured Python learning repository covering Core Python fundamentals and Advanced Python (OOP) concepts — complete with topic-wise notes, examples, and hands-on practice files.
+
+---
+
+## 📁 Project Structure
+
+```
+python-learning/
+├── corepython/              # Core Python concepts & practice
+│   ├── practice/            # Practice exercises
+│   └── Question Bank Part-1.txt
+├── advancepython/           # Advanced Python (OOP-focused)
+│   ├── inheretance/         # Inheritance types
+│   ├── practice2/           # Advanced practice exercises
+│   └── practice_def/        # Module & package practice
+├── 1weekAdvancedPython/     # Condensed 1-week advanced review
+└── Advanced Python - Copy (2)/  # Extended advanced reference
+```
+
+---
+
+## 📘 Core Python Topics
+
+| File | Topic |
+|------|-------|
+| `00Variables.py` | Variables & naming rules |
+| `01_datatypes.py` | Data types (int, str, list, dict, tuple, set) |
+| `4 TypeCasting.py` | Type conversion |
+| `5 Operators.py` | Operators (arithmetic, logical, comparison) |
+| `5 If_Else.py` | Conditional statements |
+| `6 loops.py` | for & while loops |
+| `7 patterns.py` | Pattern printing |
+| `8 comprehension.py` | List, dict & set comprehensions |
+| `9 functions.py` | Functions (basics) |
+| `09_00_functions.py` to `09_04_arbitrary_arg.py` | Function argument types |
+| `10 recursion.py` | Recursion |
+| `11 lambda.py` | Lambda functions |
+| `12 map.py` | `map()` |
+| `13 filter.py` | `filter()` |
+| `14 reduce.py` | `functools.reduce()` |
+| `15 built_in_functions.py` | Built-in functions |
+| `16 return_statement.py` | Return values |
+| `17 sortvsSorted.py` | `sort()` vs `sorted()` |
+
+---
+
+## 📗 Advanced Python Topics (OOP)
+
+| File | Topic |
+|------|-------|
+| `1 OOPs.py` | Introduction to OOP |
+| `2 Variables_in_OOPs.py` | Class vs instance variables |
+| `3 Constructor.py` | `__init__`, constructors |
+| `4 Encapsulation.py` | Encapsulation, private/public attributes |
+| `5 Inheritance/` | Single, multilevel, multiple, hierarchical & hybrid inheritance, MRO |
+| `6 Abstraction.py` | Abstract classes (`abc` module) |
+| `7 Polymorphism.py` | Method overloading & overriding |
+| `8 Methods.py` | Instance, class & static methods |
+| `9 Decorators.py` | Function & class decorators |
+| `10 Generators.py` | Generators & `yield` |
+| `11 Inner&OuterClasses.py` | Nested classes |
+| `12 Method_Overriding.py` | Method overriding |
+| `13 ExceptionHandling.py` | try/except/finally, custom exceptions |
+| `14 FileHandling.py` | File read/write operations |
+| `15 Module&Packages.py` | Modules & packages |
+| `16 Regular_Expression.py` | `re` module, regex patterns |
+| `17 Iterator.py` | Custom iterators (`__iter__`, `__next__`) |
+
+---
+
+## 🏋️ Practice Files
+
+### Core Python Practice (`corepython/practice/`)
+- Variables, data types, loops, comprehensions
+- Lambda, map, filter, reduce
+- Multiple progressive practice sets (`practice1.py` – `practice5.py`)
+- Question bank for self-assessment
+
+### Advanced Python Practice (`advancepython/practice2/`)
+- `practice_encapsulation.py`
+- `practice_inheritance.py`
+- `practice_abstraction.py`
+- `practice_polymorphism.py`
+- `practice_decorator.py`
+- `practice_fileHandling.py`
+- `practice_method.py`
+- `practice_genrator.py`
+
+---
+
+## ⚡ Quick Start
+
+**Prerequisites:** Python 3.8+
+
+```bash
+# Clone or extract the repository
+cd python-learning
+
+# Run any topic file
+python advancepython/1\ OOPs.py
+python corepython/6\ loops.py
+```
+
+No external dependencies are required — all files use Python's standard library.
+
+---
+
+## 🗺️ Suggested Learning Path
+
+1. **Core Python** → Start with `corepython/` in order (Variables → Data Types → Loops → Functions)
+2. **Practice** → Solve `corepython/practice/` exercises after each topic
+3. **OOP Fundamentals** → Work through `advancepython/` files 1–8 in sequence
+4. **Advanced OOP** → Decorators, Generators, Iterators (files 9–17)
+5. **Reinforce** → Complete all files in `advancepython/practice2/`
+6. **Review** → Use `1weekAdvancedPython/` for a quick end-to-end revision
+
+---
+
+## 📌 Notes
+
+- Comments in files are written in **English and Marathi (मराठी)** — great for regional learners.
+- `data.txt`, `data.csv`, `data.json` are sample files used in file handling exercises.
+- The `math_operations/` folder demonstrates a real Python package with `__init__.py`.
+
+---
+
+*Happy Learning! 🚀*
