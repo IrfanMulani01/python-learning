@@ -127,3 +127,70 @@ import re
 
 # va = validator("irfanmlani01@gmail.com","8530904366","Irfan@123")
 
+##💡 Mini Project
+# Q18. Build a Form Validator using a class FormValidator that validates a user registration form:
+# pythondata = {
+#     "name": "Rohit Sharma",
+#     "email": "rohit@gmail.com",
+#     "phone": "9876543210",
+#     "password": "Rohit@123",
+#     "dob": "15-08-1995"
+# }
+# Validate each field using regex:
+# name — only alphabets and spaces
+# email — valid email format
+# phone — 10 digit starting with 6–9
+# password — strong password rules
+# dob — format DD-MM-YYYY
+# Print "Valid" or "Invalid" with reason for each field.
+
+# class FormValidator:
+#     def __init__(self,name,email,phone,password,dob):
+#         self.name = name
+#         self.email = email
+#         self.phone = phone
+#         self.password = password
+#         self.dob = dob
+        
+#         self.validate_name(name)
+#         self.validate_email(email)
+#         self.validate_phone(phone)
+#         self.validate_password(password)
+#         self.validate_dob(dob)
+        
+#     def validate_name(self,name):
+#         pattern = r'^[A-Za-z]+\s[A-Za-z]+$'
+#         if re.match(pattern, name):
+#             print("valid name")
+#         else:
+#             print("invalid name")
+    
+#     def validate_email(self, email):
+#         pattern = r'^[\w\.]+@[\w\.]+\.[\w]+$'
+#         if re.match(pattern, email):
+#             print("valid email")
+#         else:
+#             print("invalid email")
+            
+#     def validate_phone(self, phone):
+#         pattern = r'^\d{10}'
+#         if re.match(pattern, phone):
+#             print("valid phone")
+#         else:
+#             print("invalid phone")
+            
+#     def validate_password(self, password):
+#         pattern = r'^(?=.*[A-z])(?=.*[a-z])(?=.*\d)(?=.*[@$%&*^#+-~]).{8,}$'
+#         if re.match(pattern, password):
+#             print("valid password")
+#         else:
+#             print("invalid password")
+            
+#     def validate_dob(self, dob):
+#         pattern = r'^(0[1-9]|[12][0-9]|3[01])-(0[1-9]|1[0-2])-\d{4}'
+#         if re.match(pattern, dob):
+#             print("valid date of birth")
+#         else:
+#             print("invalid date of birth")
+            
+# fv = FormValidator("Rohit Sharma","rohit@gmail.com","9876543210","Rohit@123","15-08-1995")
