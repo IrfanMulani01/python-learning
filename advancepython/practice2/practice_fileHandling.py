@@ -22,11 +22,11 @@
 
 ## Q3. Write a program that opens a file "data.txt" and reads it. 
 # Handle FileNotFoundError and print "File not found!" if the file doesn't exist.
-class check:
-    try:
-        f = open("data.txt", "r")
-        print(f.read())
-        f.close()
-    except FileNotFoundError:
-        print("file not found")
-c = check()
+# class check:
+#     try:
+#         f = open("data.txt", "r")
+#         print(f.read())
+#         f.close()
+#     except FileNotFoundError:
+#         print("file not found")
+# c = check()
