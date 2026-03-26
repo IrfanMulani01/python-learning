@@ -170,8 +170,8 @@ Otherwise → Invalid Email
 # VALIDATING MOBILE NUMBER
 # ==================================================
 
-# mobile = "5765432101"
-# pattern = r"^[6-9]\d{9}$"
+mobile = "5765432101"
+pattern = r"^[6-9]\d{9}$"
 # '''^      → start
 # [6-9]  → first digit must be between 6 and 9
 # \d{9}  → remaining 9 digits
