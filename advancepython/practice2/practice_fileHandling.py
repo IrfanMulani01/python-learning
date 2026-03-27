@@ -30,3 +30,16 @@
 #     except FileNotFoundError:
 #         print("file not found")
 # c = check()
+
+## Write a program to read a text file and count the total number of words and lines.
+import os
+# def count_word():
+#     folder = os.path.dirname(__file__)
+#     fileloc = os.path.join(folder, "data.txt")
+#     with open(fileloc, 'r') as f:
+#         content = f.read()
+#     lines = content.splitlines()
+#     words = content.split()
+#     print(f"lines: {len(lines)}")
+#     print(f"words: {len(words)}")
+# count_word()
