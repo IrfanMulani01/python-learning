@@ -390,13 +390,13 @@ import time
 
 
 ## Build a chunked(lst, size) generator that yields a list in chunks of given size.
-def chuncked(lst,size):
-    if size < 0:
-        raise ValueError("you must enter positive number")
-    for i in range(0,len(lst), size):
-        yield lst[i:i + size]
+# def chuncked(lst,size):
+#     if size < 0:
+#         raise ValueError("you must enter positive number")
+#     for i in range(0,len(lst), size):
+#         yield lst[i:i + size]
 
-data = [1,12,2,43,4546,54,654,7,547,546,724,4,2,43,534,63,6,36,52,34,53]
+# data = [1,12,2,43,4546,54,654,7,547,546,724,4,2,43,534,63,6,36,52,34,53]
 
-for i in chuncked(data, 8):
-    print(i)
+# for i in chuncked(data, 8):
+#     print(i)
